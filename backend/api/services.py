@@ -10,7 +10,7 @@ collection = chroma_client.get_collection(name="books_collection")
 # Connect to Groq Cloud
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="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"  # <-- Paste your real key here!
+    api_key="PASTE_YOUR_GROQ_API_KEY_HERE"  # <-- Paste your real key here!
 )
 
 def get_ai_response(question, history=[]):
